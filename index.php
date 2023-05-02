@@ -8,7 +8,8 @@ include "library/init.php";
 if (! empty($_POST)) {
     connecter($_POST["pseudo"], $_POST["password"]);
     $utilisateur = utilisateurConnecte();
-} else if (! isConnected()) {
+}
+if (! isConnected()) {
     include "templates/pages/form_connexion.php";
     exit;
 } else {
