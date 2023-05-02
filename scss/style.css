@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex, nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.justify-between, nav ul {
+  justify-content: space-between;
+}
+
+.large-100, img {
+  width: 100%;
+}
+
+.offre-tableau-lien {
+  text-decoration: underline;
+}
+.offre-tableau-lien:hover {
+  text-decoration: none;
+  color: #251313;
+}
+
+.large-75 {
+  width: 70%;
+}
+
+.large-50 {
+  width: 50%;
+}
+
+.large-25 {
+  width: 23%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.43);
+}
+
+#tableau-de-bord {
+  position: sticky;
+  top: 66px;
+  background-color: rgb(189, 253, 232);
+  padding: 16px;
+  box-shadow: -6px 5px 25px 5px rgba(0, 0, 0, 0.43);
+}
+
+main {
+  margin: 16px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+label, a {
+  display: inline-block;
+}
+
+.btn {
+  border: #000 solid 1px;
+  margin-left: 16px;
+}
+.btn:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn, input, td, th {
+  padding: 8px 16px;
+}
+
+p {
+  font-size: 1.25rem;
+}
+
+.remove-offer:hover {
+  cursor: pointer;
+  color: red;
+}
+
+h1, h2, h3, .title, .little-title, header a, .btn, .uppercase {
+  text-transform: uppercase;
+}
+
+.btn, h1, h2, h3, .title, .little-title, p, img, label {
+  margin-bottom: 16px;
+}
+
+h1, .title {
+  font-size: 3rem;
+}
+
+.little-title, h2, h3 {
+  font-size: 2rem;
+}
+
+header {
+  background-color: cadetblue;
+  padding: 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  padding-right: 16px;
+}
+
+.faire-offre, table {
+  margin-bottom: 32px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #9c9c9c;
+}
+
+th, td {
+  border: #000 solid 1px;
+}/*# sourceMappingURL=style.css.map */
